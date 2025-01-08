@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@200..1000&display=swap');
+
+/* https://coolors.co/palette/10002b-240046-3c096c-5a189a-7b2cbf-9d4edd-c77dff-e0aaff */
+
+:root {
+    --primary-color: #10002B;
+    --secondary-color: #3C096C;
+    --accent1-color: #5A189A;
+    --accent2-color: #9D4EDD;
+  
+    --heading-font: "Amiri", "Cairo", sans-serif;
+    --paragraph-font: "Cairo", Helvetica, sans-serif;
+  
+    --headline-color-on-white: #C77DFF;  /* headlines on a BLACK(ish) background */ 
+    --headline-color-on-color: #f0ddff; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #9D4EDD; /* paragraph text on a BLACK(ish) background */ 
+    --paragraph-color-on-color: #f5e3ff; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #3C096C  ;
+    --nav-link-color: #C77DFF;
+    --nav-background-color: #3C096C;
+    --nav-hover-link-color: #E0AAFF;
+    --nav-hover-background-color: #5A189A;
+    --footer-background-color: #31055a;
+  }
+
+  body {
+    background-color: #10002B;
+    text-align: center;
+  }
+
+  main {
+    max-width: 70%;
+    margin: auto; 
+    text-align: center;
+    padding-bottom: 8px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+  }
+
+  h1 { /* default is 2em */
+    font-size: 2.2em;
+  }
+
+  h2 { /* default is 1.55em */
+    font-size: 1.7em;
+  }
+
+  h3 { /* default is 1.2em */
+    font-size: 1.4em;
+    margin-top: -25px;
+  }
+
+  h4 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    padding: 0.6em;
+    font-size: 1.2em;
+  }
+
+  .topsection {
+    background-color: var(--nav-background-color);
+    margin: 0 none;
+    padding: none;
+    min-width: 100%;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+  }
+
+  footer {
+    min-height: 30px;
+    border: 1px solid var(--accent1-color);
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    background-color: var(--footer-background-color);
+    font-size: 1em;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    position: static;
+  }
+
+  nav a {
+    text-align: center;
+    padding: 15px;
+    font-family: var(--heading-font);
+    color: var(--nav-link-color);
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+    text-decoration: underline;
+  }
+
+  a {
+    text-align: center; 
+    color: var(--nav-link-color);
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+    text-decoration: underline;
+  }
+
+  .space {
+    padding: 10px;
+  }
+
+  .chonker, .minichonker {
+    min-height: 500px;
+    border: 1px solid var(--accent1-color);
+    padding: 5px;
+    max-width: 85%;
+    margin: auto;
+  }
+
+  .minichonker {
+    min-height: 200px;
+  }
+
+  .middletext {
+    text-align: center;
+    align-content: center;
+  }
+
+  .thinchonker {
+    min-height: 200px;
+    border: 1px solid var(--accent1-color);
+    padding: 5px;
+    max-width: 70%;
+    margin: auto;
+  }
+
+  .sides {
+    align-items: center;
+    text-align: center;
+  }
+
+  .leftside {
+    position: absolute;
+    left: 15px;
+    min-width: 18%;
+    min-height: 80%;
+    max-width: 18%;
+    align-items: middle;
+  }
+
+  .rightside {
+    position: absolute;
+    right: 15px;
+    min-width: 18%;
+    min-height: 80%;
+    max-width: 18%;
+    align-items: middle;
+  }
+
+  .imgchonker {
+    border: 1px solid var(--accent1-color);
+    padding: 5px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    color: var(--paragraph-color-on-white);
+    font-family: var(--paragraph-font);
+    font-size: 1.1em;
+  }
+
+  .imgbumper {
+    min-height: 250px;
+    min-width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .imgbumper0 {
+    min-height: 175px;
+    min-width: 80%;
+    margin-bottom: 10px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  ul {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    padding: 1em;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  li {
+    text-align: center; 
+    padding: 5px;
+    list-style-position: inside;
+  }
