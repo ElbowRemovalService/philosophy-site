@@ -1,0 +1,22 @@
+/* https://coolors.co/palette/10002b-240046-3c096c-5a189a-7b2cbf-9d4edd-c77dff-e0aaff */
+
+:root {
+    --primary-color: #10002B;
+    --secondary-color: #3C096C;
+    --accent1-color: #5A189A;
+    --accent2-color: #9D4EDD;
+  
+    --heading-font: "Amiri", "Cairo", sans-serif;
+    --paragraph-font: "Cairo", Helvetica, sans-serif;
+  
+    --headline-color-on-white: #C77DFF;  /* headlines on a BLACK(ish) background */ 
+    --headline-color-on-color: #f0ddff; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #9D4EDD; /* paragraph text on a BLACK(ish) background */ 
+    --paragraph-color-on-color: #f5e3ff; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #3C096C  ;
+    --nav-link-color: #C77DFF;
+    --nav-background-color: #3C096C;
+    --nav-hover-link-color: #E0AAFF;
+    --nav-hover-background-color: #5A189A;
+    --footer-background-color: #31055a;
+  }
