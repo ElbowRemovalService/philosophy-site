@@ -47,7 +47,7 @@
   p {
     font-family: var(--paragraph-font);
     color: var(--paragraph-color-on-white);
-    padding: 0.6em;
+    padding: 0.55em;
     font-size: 1.2em;
   }
 
