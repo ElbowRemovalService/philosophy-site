@@ -92,7 +92,7 @@
 
   a {
     text-align: center; 
-    color: var(--nav-link-color);
+    color: var(--paragraph-color-on-white);
     text-decoration: none;
   }
 
