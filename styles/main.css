@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: Quantico;
-  src: url('quantico.ttf') format('truetype');
+  src: url('fonts/quantico.ttf') format('truetype');
 }
 
 @font-face {
   font-family: Cairo;
-  src: url('cairo.ttf') format('truetype');
+  src: url('fonts/cairo.ttf') format('truetype');
 }
 
   body {
@@ -55,7 +55,7 @@
     background-color: var(--nav-background-color);
     margin: 0 none;
     padding: none;
-    min-width: 100%;
+    max-height: 8.75%;
     position: absolute;
     right: 0px;
     left: 0px;
@@ -77,7 +77,7 @@
 
   nav a {
     text-align: center;
-    padding: 15px;
+    padding: 12px;
     font-family: var(--heading-font);
     color: var(--nav-link-color);
     font-size: 1.2em;
