@@ -3,8 +3,8 @@
 :root {
     --primary-color: #000000;
     --secondary-color: #212529;
-    --accent1-color: #FFD100;
-    --accent2-color: #FFEE32;
+    --accent1-color: #ffff00;
+    --accent2-color: #fff47c;
   
     --heading-font: "Amiri", "Cairo", sans-serif;
     --paragraph-font: "Cairo", Helvetica, sans-serif;
@@ -15,7 +15,7 @@
     --paragraph-color-on-color: #212529; /* paragraph text on a colored background */ 
     --paragraph-background-color: #212529;
     --nav-link-color: #212529;
-    --nav-background-color: #FFD100;
+    --nav-background-color: #d4ad00;
     --nav-hover-link-color: #000000;
     --nav-hover-background-color: #FFEE32;
     --footer-background-color: #212529;

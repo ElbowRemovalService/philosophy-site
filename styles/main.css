@@ -105,6 +105,12 @@ footer {
   text-align: center;
 }
 
+.items:hover {
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+  text-decoration: underline;
+}
+
 .stupid {
   text-align: right;
   padding-right: 5px;
@@ -131,7 +137,7 @@ nav a {
   font-family: var(--heading-font);
   color: var(--nav-link-color);
   font-size: 1.2em;
-  border: 1px solid var(--accent2-color);
+  border: 1.5px solid var(--accent2-color);
 }
 
 nav a:hover {
